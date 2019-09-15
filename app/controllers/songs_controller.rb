@@ -1,5 +1,4 @@
 class SongsController < ApplicationController
-  class ArtistsController < ApplicationController
   before_action :set_song, only: [ :show, :edit, :update, :destroy]
 
   def index
